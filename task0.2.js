@@ -1,7 +1,6 @@
-//Task 0.2
-x = 1 + 1 * 2;
-z = (1 + 1) * 2;
-a = 1 + 1 * 2 / 2;
-b = (1 + 1 * 2 ) / 2;
+number1 = 1 + 1 * 2;
+number2 = (1 + 1) * 2;
+number3 = 1 + 1 * 2 / 2;
+number4 = (1 + 1 * 2 ) / 2;
 
-console.log(x,z,a,b);
+console.log(number1,number2,number3,number4);

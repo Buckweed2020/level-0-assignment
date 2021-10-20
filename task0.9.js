@@ -1,6 +1,5 @@
-function returnVowels(str) {
-    str = str.replace( /[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/g, '' );
-    return str
+function returnVowels(word) {
+    word = word.replace( /[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/g, '' );
 }
 
 console.log("Vowels: " + returnVowels("Rinnegan"))

@@ -1,20 +1,19 @@
-//Task 0.10
-function matchingChar(str1,str2) {
+function matchingCharacters(word1,word2) {
     let similar = []
     let compare = []
 
-    for(let i = 0; i < str1.length; i++) {
+    for(let i = 0; i < word1.length; i++) {
     }
-    for(let i = 0; i < str2.length; i++) {
+    for(let i = 0; i < word2.length; i++) {
     }
 
-   str1 = new Set(str1.toLowerCase())
-   str2 = new Set(str2.toLowerCase())
+   str1 = new Set(string1.toLowerCase())
+   str2 = new Set(string2.toLowerCase())
 
-   str1 = Array.from(str1).join('')
-   str2 = Array.from(str2).join('')
+   str1 = Array.from(string1).join('')
+   str2 = Array.from(string2).join('')
 
-   letters = str1 + str2
+   letters = string1 + string2
 
 
    for(let i of letters) {
@@ -30,4 +29,4 @@ function matchingChar(str1,str2) {
 
 } 
 
-matchingChar("Bubblegum","Checksum")
+matchingCharacters("Bubblegum","Checksum")

@@ -1,6 +1,6 @@
-function convertToTime(num) {
-    let hours = Math.floor(num / 60);
-    let minutes = num % 60;
+function convertToTime(number) {
+    let hours = Math.floor(number / 60);
+    let minutes = number % 60;
 
     if((hours == 0 || hours >= 2) && (minutes == 0 || minutes >= 2)){
         return hours + " hours," + " " + minutes +" minutes";

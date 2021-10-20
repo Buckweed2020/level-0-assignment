@@ -1,20 +1,17 @@
-//Task 0.7
-
-
-function celsToFah(x) {
-    x = x + 0;
-    x = x * 9 / 5;
-    x = x + 32;
-    return x
+function celsiusToFahrenheit(temperature) {
+    temperature = temperature + 0;
+    temperature = temperature * 9 / 5;
+    temperature = temperature + 32;
+    return temperature
 } 
 
-celsToFah(20)
+celsiusToFahrenheit(20)
 
-function fahToCels(x) {
-    x = x + 0;
-    x = x - 32;
-    x = x / 1.8
-    return x
+function fahrenheitToCelsius(temperature) {
+    temperature = temperature + 0;
+    temperature = temperature - 32;
+    temperature = temperature / 1.8
+    return temperature
 }
 
-fahToCels(68)
+fahrenheitToCelsius(68)

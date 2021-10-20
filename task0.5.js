@@ -1,10 +1,8 @@
-//Task 0.5
-
-function triangleArea(x,y,z) {
-    x = x + 0;
-    y = y + 0;
-    z = z + 0;
-    sum = (x + y + z) / 2
+function triangleArea(side1,side2,side3) {
+    side1 = side1 + 0;
+    side2 = side2 + 0;
+    side3 = side3 + 0;
+    sum = (side1 + side2 + side3) / 2
     return sum;
 } 
 
