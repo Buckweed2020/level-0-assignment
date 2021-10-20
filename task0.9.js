@@ -3,4 +3,4 @@ function returnVowels(str) {
     return str
 }
 
-"Vowels: " + returnVowels("Rinnegan")
+console.log("Vowels: " + returnVowels("Rinnegan"))
