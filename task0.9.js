@@ -1,8 +1,13 @@
 function returnVowels(word) {
     word = word.replace( /[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/g, '' );
 
-    Array.from(word);
-    return word.split("")
+
+    word = word.toLowerCase()
+    word = new Set(word)
+    word = Array.from(word)
+
+
+    return "Vowels: " + word
 }  
 
-console.log("Vowels: " + returnVowels("Rinnegan"));
+console.log(returnVowels("Umuzi"));
