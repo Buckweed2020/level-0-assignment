@@ -23,10 +23,11 @@ function matchingCharacters(word1,word2) {
            similar.push(i)
        }
    }
+   
+   similar = similar.toString()
 
    return similar
 
-
 } 
 
-matchingCharacters("Bubblegum","Checksum")
+console.log("Common letters: " + matchingCharacters("Bubblegum","Checksum"))
