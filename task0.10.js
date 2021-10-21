@@ -7,13 +7,13 @@ function matchingCharacters(word1,word2) {
     for(let i = 0; i < word2.length; i++) {
     }
 
-   str1 = new Set(string1.toLowerCase())
-   str2 = new Set(string2.toLowerCase())
+   word1 = new Set(word1.toLowerCase())
+   word2 = new Set(word2.toLowerCase())
 
-   str1 = Array.from(string1).join('')
-   str2 = Array.from(string2).join('')
+   word1 = Array.from(word1).join('')
+   word2 = Array.from(word2).join('')
 
-   letters = string1 + string2
+   letters = word1 + word2
 
 
    for(let i of letters) {
