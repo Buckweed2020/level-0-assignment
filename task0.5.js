@@ -1,9 +1,8 @@
-function triangleArea(side1,side2,side3) {
-    side1 = side1 + 0;
-    side2 = side2 + 0;
-    side3 = side3 + 0;
-    sum = (side1 + side2 + side3) / 2
-    return sum;
-} 
+function triangleArea(side1,side2,side3)
+{
+    let halfPerimeter = (side1 + side2 + side3) / 2;
+    let area = Math.sqrt(halfPerimeter*(halfPerimeter - side1)*(halfPerimeter - side2)*(halfPerimeter - side3));
+    return area 
+}
 
-triangleArea(10,5,5)
+console.log(triangleArea(8,8,8))
