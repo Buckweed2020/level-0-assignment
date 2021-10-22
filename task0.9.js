@@ -7,7 +7,7 @@ function returnVowels(word) {
     word = Array.from(word)
 
 
-    return "Vowels: " + word
+    console.log("Vowels: " + word)
 }  
 
 console.log(returnVowels("Umuzi"));
